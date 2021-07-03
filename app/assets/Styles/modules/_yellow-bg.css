@@ -1,0 +1,11 @@
+.yellow-bg{
+    background-color: #E6BF1B;
+    color: #fff;
+    min-height: 450px;
+    padding: 8px;
+}
+
+.broken-margin{
+    min-height: 442px;
+    border: 2px dashed honeydew;
+}

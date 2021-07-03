@@ -1,0 +1,27 @@
+.btn{
+    padding: 0.9375rem 1.5625rem;
+    text-decoration: none;
+    display: inline-block;
+
+    &--bold{
+        font-weight: 700;
+        font-size: 1.3125rem;
+    }
+
+    &--light{
+        background-color: #fff;
+        color: #666666;
+    }
+    &--center{
+        text-align: center;
+        margin-left: 33vw;
+
+        @mixin atMedium {
+            margin-left: 42vw;  
+        }
+
+    }
+    &--padding-top{
+        margin-top: 25px;
+    }
+}

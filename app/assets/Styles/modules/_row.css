@@ -1,8 +1,9 @@
 .row{
     display: grid;
-    grid-template-columns: auto auto;
 
-    &__item{
-            text-align: start;
+    &--space-between-2-row{
+        grid-template-columns: auto auto;
+        justify-content: space-between;
     }
+
 }
