@@ -2,4 +2,7 @@
     background-color: #000000;
     color: #fff;
 
+    &--border-radius{
+        border-radius: 15px;
+    }
 }
