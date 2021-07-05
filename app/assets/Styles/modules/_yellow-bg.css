@@ -1,4 +1,5 @@
 .yellow-bg{
+    position: relative;
     background-color: #E6BF1B;
     color: #fff;
     min-height: 450px;
@@ -8,4 +9,42 @@
 .broken-margin{
     min-height: 442px;
     border: 2px dashed honeydew;
+}
+
+.circle-broken-margin{
+    min-height: 120px;
+    width: 120px;
+    border: 2px dashed #393628; 
+    border-radius: 60px;
+    display: flex;
+
+    @mixin atMedium {
+        min-height: 170px;
+        width: 170px;
+        border-radius: 85px;    
+    }
+}
+
+.circle-content{
+    max-width: 120px;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    line-height: 1;
+    margin-top: 12px;
+
+
+    strong{
+        font-size: 2rem;
+        font-weight: 600;
+
+        @mixin atMedium {
+            font-size: 3.1875rem;
+            font-weight: 700;      
+        }
+    }
+
+    @mixin atMedium {
+        margin-left: 23px;
+    }
 }
