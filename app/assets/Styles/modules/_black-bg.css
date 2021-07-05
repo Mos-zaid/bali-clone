@@ -5,4 +5,26 @@
     &--border-radius{
         border-radius: 15px;
     }
+
+    &--circle{
+            background-color: rgba(23, 19, 3, 0.96);
+            position: absolute;
+            top: 10%;
+            right: 2%;
+            padding: 9px;
+            min-height: 140px;
+            width: 140px;
+            border-radius: 70px;
+
+            @mixin atMedium {
+                min-height: 190px;
+                width: 190px;
+                border-radius: 95px;
+                padding: 10px;
+                top: 13.9%;
+                right: 15%;
+        
+            }
+        
+    }
 }
